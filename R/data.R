@@ -1,29 +1,24 @@
-#' campbell atlas
+#' Campbell Cortical Atlas (1905)
 #'
-#' A historical Campbell atlas based on files
-#' released with  Pijnenburg et al., NeuroImage, 
-#' 239, 2021, (\href{https://doi.org/10.1016/j.neuroimage.2021.118274}{DOI})
-#' Version 1; 15-01-2021.
+#' Brain atlas for the Campbell (1905) cortical parcellation
+#' with 17 regions per hemisphere. Contains both 2D polygon geometry
+#' for [ggseg::geom_brain()] and 3D vertex indices for [ggseg3d::ggseg3d()].
 #'
 #' @docType data
 #' @name campbell
+#' @usage data(campbell)
 #' @keywords datasets
-#' @family ggseg_atlases ggseg3d_atlases
-#' @references A.W. Campbell; Histological Studies On the Localisation of Cerebral Function; University Press (1905)
-#'     
-#' \itemize{
-#'  \item{campbell}{ - campbell atlas}
-#'  \item{campbell_3d}{ - campbell 3d mesh atlas}
-#'}
+#' @family ggseg_atlases
 #'
-#' @import ggseg
-#' @import ggseg3d
-#' @rdname campbell
+#' @references Campbell A.W. (1905). Histological studies on the localisation
+#'   of cerebral function. Cambridge University Press.
+#'
+#'   Pijnenburg R. et al. (2021). Myelo- and cytoarchitectonic microstructural
+#'   and functional parcellation of the human cortex based on the Campbell atlas.
+#'   *NeuroImage*, 239, 118274. \doi{10.1016/j.neuroimage.2021.118274}
+#'
+#' @format A [ggseg.formats::ggseg_atlas] object (cortical).
 #' @examples
 #' data(campbell)
-#' data(campbell_3d)
+#' campbell
 "campbell"
-
-#' @rdname campbell
-"campbell_3d"
-
