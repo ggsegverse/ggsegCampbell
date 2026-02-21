@@ -10,7 +10,6 @@ Description: Campbell (1905) cortical atlas for the 'ggseg' ecosystem. Provides
     indices, for use with 'ggseg' and 'ggseg3d'.
 License: CC BY 4.0
 Encoding: UTF-8
-LazyData: true
 Depends:
     R (>= 3.5),
     ggseg.formats

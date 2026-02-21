@@ -4,10 +4,6 @@
 #' with 17 regions per hemisphere. Contains both 2D polygon geometry
 #' for [ggseg::geom_brain()] and 3D vertex indices for [ggseg3d::ggseg3d()].
 #'
-#' @docType data
-#' @name campbell
-#' @usage data(campbell)
-#' @keywords datasets
 #' @family ggseg_atlases
 #'
 #' @references Campbell A.W. (1905). Histological studies on the localisation
@@ -17,8 +13,8 @@
 #'   and functional parcellation of the human cortex based on the Campbell atlas.
 #'   *NeuroImage*, 239, 118274. \doi{10.1016/j.neuroimage.2021.118274}
 #'
-#' @format A [ggseg.formats::ggseg_atlas] object (cortical).
+#' @return A [ggseg.formats::ggseg_atlas] object (cortical).
+#' @export
 #' @examples
-#' data(campbell)
-#' campbell
-"campbell"
+#' campbell()
+campbell <- function() .campbell
