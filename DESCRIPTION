@@ -21,12 +21,8 @@ Suggests:
     rmarkdown,
     testthat (>= 3.0.0),
     vdiffr
-Remotes:
-    ggseg/ggseg,
-    ggseg/ggseg3d,
-    ggseg/ggseg.formats
-URL: https://github.com/ggseg/ggsegCampbell
-BugReports: https://github.com/ggseg/ggsegCampbell/issues
+URL: https://github.com/ggsegverse/ggsegCampbell
+BugReports: https://github.com/ggsegverse/ggsegCampbell/issues
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 Config/testthat/edition: 3
