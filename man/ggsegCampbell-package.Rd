@@ -13,8 +13,8 @@ Campbell (1905) cortical atlas for the 'ggseg' ecosystem. Provides a unified 'gg
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/ggseg/ggsegCampbell}
-  \item Report bugs at \url{https://github.com/ggseg/ggsegCampbell/issues}
+  \item \url{https://github.com/ggsegverse/ggsegCampbell}
+  \item Report bugs at \url{https://github.com/ggsegverse/ggsegCampbell/issues}
 }
 
 }
