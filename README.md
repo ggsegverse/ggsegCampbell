@@ -75,3 +75,10 @@ ggseg3d(atlas = campbell()) |>
 Please note that the ‘ggsegCampbell’ project is released with a
 [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to
 this project, you agree to abide by its terms.
+
+## Data source
+
+Annotation files from the supplementary materials of Pijnenburg et al. (2021), projected onto fsaverage5.
+
+- **Reference**: Campbell (1905); Pijnenburg et al. (2021) [doi:10.1016/j.neuroimage.2021.118274](https://doi.org/10.1016/j.neuroimage.2021.118274)
+- **Date obtained**: 2021-11-04
