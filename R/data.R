@@ -18,4 +18,5 @@
 #' @export
 #' @examples
 #' campbell()
+#' plot(campbell())
 campbell <- function() .campbell
