@@ -11,13 +11,13 @@ Source:
 [`DESCRIPTION`](https://github.com/ggsegverse/ggsegCampbell/blob/main/DESCRIPTION)
 
 Mowinckel A (2026). *ggsegCampbell: Campbell Cortical Atlas (1905) for
-the 'ggseg' Ecosystem*. R package version 2.0.0,
+the 'ggseg' Ecosystem*. R package version 2.0.1,
 <https://github.com/ggsegverse/ggsegCampbell>.
 
     @Manual{,
       title = {ggsegCampbell: Campbell Cortical Atlas (1905) for the 'ggseg' Ecosystem},
       author = {Athanasia Mo Mowinckel},
       year = {2026},
-      note = {R package version 2.0.0},
+      note = {R package version 2.0.1},
       url = {https://github.com/ggsegverse/ggsegCampbell},
     }

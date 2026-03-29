@@ -4,7 +4,7 @@ Brain atlas for the Campbell (1905) cortical parcellation with 17
 regions per hemisphere. Contains both 2D polygon geometry for
 [`ggseg::geom_brain()`](https://ggsegverse.github.io/ggseg/reference/ggbrain.html)
 and 3D vertex indices for
-[`ggseg3d::ggseg3d()`](https://lcbc-uio.github.io/ggseg3d//reference/ggseg3d.html).
+[`ggseg3d::ggseg3d()`](https://ggsegverse.github.io/ggseg3d/reference/ggseg3d.html).
 
 ## Usage
 
@@ -37,7 +37,7 @@ campbell()
 #> Type: cortical
 #> Regions: 17
 #> Hemispheres: left, right
-#> Views: lateral, medial
+#> Views: inferior, lateral, medial, superior
 #> Palette: ✔
 #> Rendering: ✔ ggseg
 #> ✔ ggseg3d (vertices)
@@ -53,15 +53,15 @@ campbell()
 #>  6 left  inter_postcentral lh_inter_postcentral
 #>  7 left  parietal          lh_parietal         
 #>  8 left  visuopsychic      lh_visuopsychic     
-#>  9 left  temporal          lh_temporal         
-#> 10 left  audiopsychic      lh_audiopsychic     
-#> 11 left  audiosensory      lh_audiosensory     
-#> 12 left  insula            lh_insula           
-#> 13 left  visuosensory      lh_visuosensory     
-#> 14 left  olfactory         lh_olfactory        
-#> 15 left  limbicA           lh_limbicA          
-#> 16 left  limbicB           lh_limbicB          
-#> 17 left  limbicC           lh_limbicC          
+#>  9 left  visuosensory      lh_visuosensory     
+#> 10 left  temporal          lh_temporal         
+#> 11 left  audiopsychic      lh_audiopsychic     
+#> 12 left  audiosensory      lh_audiosensory     
+#> 13 left  olfactory         lh_olfactory        
+#> 14 left  limbicA           lh_limbicA          
+#> 15 left  limbicB           lh_limbicB          
+#> 16 left  limbicC           lh_limbicC          
+#> 17 left  insula            lh_insula           
 #> 18 right prefrontal        rh_prefrontal       
 #> 19 right frontal           rh_frontal          
 #> 20 right inter_precentral  rh_inter_precentral 
@@ -72,11 +72,11 @@ campbell()
 #> 25 right visuopsychic      rh_visuopsychic     
 #> 26 right visuosensory      rh_visuosensory     
 #> 27 right temporal          rh_temporal         
-#> 28 right olfactory         rh_olfactory        
-#> 29 right limbicA           rh_limbicA          
-#> 30 right limbicB           rh_limbicB          
-#> 31 right limbicC           rh_limbicC          
-#> 32 right audiopsychic      rh_audiopsychic     
-#> 33 right audiosensory      rh_audiosensory     
+#> 28 right audiopsychic      rh_audiopsychic     
+#> 29 right audiosensory      rh_audiosensory     
+#> 30 right olfactory         rh_olfactory        
+#> 31 right limbicA           rh_limbicA          
+#> 32 right limbicB           rh_limbicB          
+#> 33 right limbicC           rh_limbicC          
 #> 34 right insula            rh_insula           
 ```
