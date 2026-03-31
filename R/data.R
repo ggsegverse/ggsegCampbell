@@ -5,6 +5,7 @@
 #' for [ggseg::geom_brain()] and 3D vertex indices for [ggseg3d::ggseg3d()].
 #'
 #' @family ggseg_atlases
+#' @family cortical_atlases
 #'
 #' @references Campbell A.W. (1905). Histological studies on the localisation
 #'   of cerebral function. Cambridge University Press.
